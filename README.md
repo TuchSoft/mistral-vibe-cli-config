@@ -52,6 +52,15 @@ To prevent accidental operations, the following git commands are forbidden:
 - `git reset`
 - `git checkout`
 
+## Zed Editor Configuration
+
+This repository includes Zed editor configurations in the `zed/` folder. To use these configurations, you must manually configure the Zed editor:
+
+1. Copy the content of `zed/config.jsonc` to your Zed editor configuration file.
+2. Copy the content of `zed/commit-prompt.md` to your Zed editor commit prompts rule.
+3. Ensure the Zed editor is configured to use the Mistral Vibe agent server via ACP and/or API.
+
+
 ## License
 
 This project is licensed under the MIT License.

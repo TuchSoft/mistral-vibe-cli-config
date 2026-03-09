@@ -1,0 +1,19 @@
+//This is a partial file!
+{
+  "agent_servers": {
+    //Must install the Mistral Vibe ACP registry
+    "mistral-vibe": {
+      "type": "registry",
+    },
+  },
+  "agent": {
+    "favorite_models": [],
+    "play_sound_when_agent_done": true,
+    "model_parameters": [],
+    //Must configure it via API, you can use the same API key Vibe CLI use
+    "commit_message_model": {
+      "provider": "mistral",
+      "model": "devstral-small-latest",
+    },
+  },
+}
