@@ -1,0 +1,7 @@
+enabled_tools = [
+    "complex_plans_createPlan",
+    "complex_plans_updatePlan",
+    "complex_plans_openInEditor",
+    "complex_plans_sequentialThinking",
+    "complex_plans_listPlans"
+]
